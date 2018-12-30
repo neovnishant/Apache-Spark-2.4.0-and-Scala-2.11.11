@@ -1,0 +1,21 @@
+//Apache-Spark-2.4.0-and-Scala-2.11.11
+
+- Demo App which consumes REST api for JSON data (CBSE Region-Wise) Result and can do analysis on that data using Spark SQL.
+
+- Run the jar file using "spark-submit" with url in input param.
+
+- JSON Format:
+
+{
+	"result" : [
+					{
+						"region" : "",
+						"total_appeared" : "",
+						"total_passed" : "",
+						"total_failed" : "",
+						"percent_appeared" : "",
+						"percent_passed" : "",
+						"percent_failed" : ""
+					}
+				]
+}
